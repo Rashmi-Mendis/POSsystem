@@ -8,12 +8,12 @@ With this system, store owners can effectively manage stock levels, generate sal
 
 ---
 
-## Features  
+## Features 
+✅ **Expiration Date Tracking** – Prevent losses due to expired products.  
 ✅ **Inventory Management** – Add, update, and track stock levels.  
 ✅ **Point of Sales (POS) System** – Streamline sales transactions.  
 ✅ **Automated Sales Reports** – Generate daily and weekly sales reports.  
 ✅ **Stock Alerts** – Notify users of low stock levels.  
-✅ **Expiration Date Tracking** – Prevent losses due to expired products.  
 ✅ **Receipt Generation** – Provide customers with detailed receipts.  
 ✅ **User-Friendly Interface** – Easy to use for store owners and employees.  
 
@@ -72,6 +72,4 @@ The project was developed over an **8-month timeline**, including research, syst
 
 ## Installation & Setup  
 1. Install **Microsoft Visual Studio** and **Microsoft SQL Server**.  
-2. Clone the project from GitHub:  
-   ```bash
-  https://github.com/Rashmi-Mendis/POSsystem.git
+2. project from GitHub: https://github.com/Rashmi-Mendis/POSsystem.git

@@ -1,7 +1,7 @@
 ---
 
-### **Sales and Inventory Management System - POS System**  
-**Created on:** October 13, 2021  
+**Sales and Inventory Management System**  
+**Published on:** October 13, 2021  
 
 ## **Project Overview**  
 The **Sales and Inventory Management System** is a computer-based application designed to improve the efficiency of inventory and sales tracking for retailers. The system is developed to assist stores like **Sisira Stores in Weligatta**, which previously relied on manual record-keeping, leading to inefficiencies and data inaccuracies.  

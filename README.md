@@ -74,4 +74,4 @@ The project was developed over an **8-month timeline**, including research, syst
 1. Install **Microsoft Visual Studio** and **Microsoft SQL Server**.  
 2. Clone the project from GitHub:  
    ```bash
-   git clone [YOUR-GITHUB-REPO-LINK]
+  https://github.com/Rashmi-Mendis/POSsystem.git

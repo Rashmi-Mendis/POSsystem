@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E700F842-AC59-45CA-BFD0-9F8325DB9505}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>POSsystem</RootNamespace>
+    <AssemblyName>POSsystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmGRNconfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGRNconfirmation.Designer.cs">
+      <DependentUpon>frmGRNconfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfirmation.Designer.cs">
+      <DependentUpon>frmConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminMembr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminMembr.Designer.cs">
+      <DependentUpon>frmAdminMembr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStaffMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStaffMember.Designer.cs">
+      <DependentUpon>frmStaffMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInventory.Designer.cs">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGRN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGRN.Designer.cs">
+      <DependentUpon>frmGRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStaff.Designer.cs">
+      <DependentUpon>frmStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInvoice.Designer.cs">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmGRNconfirmation.resx">
+      <DependentUpon>frmGRNconfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfirmation.resx">
+      <DependentUpon>frmConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminMembr.resx">
+      <DependentUpon>frmAdminMembr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStaffMember.resx">
+      <DependentUpon>frmStaffMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInventory.resx">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGRN.resx">
+      <DependentUpon>frmGRN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStaff.resx">
+      <DependentUpon>frmStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInvoice.resx">
+      <DependentUpon>frmInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Untitled-login22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Untitled-usericonnn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\userpassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\grn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\invoiceee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Untitled-3add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Untitled-3cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Untitled-3back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\EDIT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\edittttt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\ediiit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Untitled-3prinnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\grnCheck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\llogginn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\submitttttt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\submit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\subbbbb.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
